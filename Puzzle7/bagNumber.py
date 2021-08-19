@@ -53,4 +53,4 @@ def bags_in_colour(colour, count, colour_dict):
     print("total of branch = " + str((total * count) + count))
     return (total * count) + count # + count is needed to add the bag itself
 
-print((bags_in_colour("shiny gold", 1, rules_dict))-1) #-1 done at the end to remove the outermost shiny gold bag from the count
+print((bags_in_colour("shiny gold", 1, rules_dict))-1) #-1 done at the end to remove the outermost shiny gold bag from the count                                                              
